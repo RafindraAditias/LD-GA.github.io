@@ -411,6 +411,7 @@ swiper-slide img {
   /* GALLERY */
   .gallery {
     display: block;
+    overflow: hidden;
   }
 
   .gallery h1 {
