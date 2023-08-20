@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 3000px;
+  height: 5000px;
   background-color: #d6d6d6 !important;
   overflow-x: hidden;
 }
@@ -252,7 +252,7 @@ nav::before {
 .gallery {
   display: flex;
   width: 100%;
-  background-color: #9b9b9b;
+  background-color: #B39D5A;
   align-items: center;
   position: relative;
 }
@@ -261,6 +261,7 @@ nav::before {
   text-align: center;
   font-family: "vigran", sans-serif;
   margin-left: 7rem;
+  z-index: 1;
 }
 
 .gallery p {
@@ -274,6 +275,7 @@ nav::before {
   left: 15rem;
   scale: scale(-1);
   opacity: 0.5;
+  z-index: 0;
 }
 
 swiper-container {
@@ -297,6 +299,32 @@ swiper-slide img {
   object-fit: cover;
 }
 /* END GALLERY */
+
+/* WHEN & WHERE */
+
+.mothercard{
+  width: 90%;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.85rem;
+  background-color: #B39D5A !important
+  
+}
+
+.whenandwhere .anjay {
+  background-color: #B39D5A;
+  /* background-color: #D6D6D6; */
+} 
+
+.mothercard h5{
+  font-family: "vigran", sans-serif;
+}
+
+.body1 .card, .body2 .card {
+  background-color: #D6D6D6;
+  /* background-color: #B39D5A; */
+
+}
+/* END WHEN & WHERE */
 
 @media (max-width: 992px) {
   html {
