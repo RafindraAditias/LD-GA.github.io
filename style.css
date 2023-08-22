@@ -300,28 +300,22 @@ swiper-slide img {
 }
 /* END GALLERY */
 
-.container h5, h1 {
+
+/* WHEN & WHERE */
+
+.info h5, h1 {
   font-family: "vigran", sans-serif;
 }
 
-.container p {
+.info p {
   font-family: "Raleway", sans-serif;
   font-size: 0.8rem;
 }
 
-.container img {
+.info img {
   width: 30rem;
   border-radius: 0px 0px 40% 40%;
 }
-
-.locationc .card {
-  background-repeat: no-repeat;
-}
-
-/* WHEN & WHERE */
-
-
-
 /* END WHEN & WHERE */
 
 @media (max-width: 992px) {
