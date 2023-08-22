@@ -300,16 +300,16 @@ swiper-slide img {
 }
 /* END GALLERY */
 
-.location h5, h1 {
+.container h5, h1 {
   font-family: "vigran", sans-serif;
 }
 
-.location p {
+.container p {
   font-family: "Raleway", sans-serif;
   font-size: 0.8rem;
 }
 
-.location img {
+.container img {
   width: 30rem;
   border-radius: 0px 0px 40% 40%;
 }
