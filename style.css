@@ -300,26 +300,28 @@ swiper-slide img {
 }
 /* END GALLERY */
 
-/* WHEN & WHERE */
-
-.mothercard{
-  width: 90%;
-  font-family: "Raleway", sans-serif;
-  font-size: 0.85rem;
-  background-color: #B39D5A !important
-  
-}
-
-
-.mothercard h5{
+.location h5, h1 {
   font-family: "vigran", sans-serif;
 }
 
-.body1 .card, .body2 .card {
-  background-color: #D6D6D6;
-  /* background-color: #B39D5A; */
-
+.location p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
 }
+
+.location img {
+  width: 30rem;
+  border-radius: 0px 0px 40% 40%;
+}
+
+.locationc .card {
+  background-repeat: no-repeat;
+}
+
+/* WHEN & WHERE */
+
+
+
 /* END WHEN & WHERE */
 
 @media (max-width: 992px) {
