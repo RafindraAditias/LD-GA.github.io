@@ -6,7 +6,7 @@
 body {
   height: 5000px;
   background-color: #d6d6d6 !important;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* HERO */
@@ -250,19 +250,16 @@ nav::before {
 
 /* GALLERY */
 .gallery {
-  display: flex;
   width: 100%;
   background-color: #B39D5A;
-  align-items: center;
   position: relative;
 }
 
 .gallery h1 {
-  text-align: center;
   font-family: "vigran", sans-serif;
-  /* margin-left: 7rem; */
   z-index: 2;
   position: relative;
+  width: 25rem;
 }
 
 .gallery p {
@@ -469,7 +466,7 @@ swiper-slide img {
   }
 
   swiper-container {
-    width: 50%;
+    width: 80%;
     height: 20rem;
   }
 
