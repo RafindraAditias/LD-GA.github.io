@@ -6,7 +6,7 @@
 body {
   height: 5000px;
   background-color: #d6d6d6 !important;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* HERO */
