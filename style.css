@@ -260,8 +260,9 @@ nav::before {
 .gallery h1 {
   text-align: center;
   font-family: "vigran", sans-serif;
-  margin-left: 7rem;
-  z-index: 1;
+  /* margin-left: 7rem; */
+  z-index: 2;
+  position: relative;
 }
 
 .gallery p {
@@ -432,6 +433,11 @@ swiper-slide img {
     font-size: 60%;
   }
 
+  body {
+    overflow-x: hidden;
+
+  }
+
   .logo {
     top: 60px;
   }
@@ -460,6 +466,11 @@ swiper-slide img {
   .gallery {
     display: block;
     overflow-x: hidden;
+  }
+
+  swiper-container {
+    width: 80%;
+    height: 20rem;
   }
 
   .gallery h1 {
