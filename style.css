@@ -259,7 +259,7 @@ nav::before {
   font-family: "vigran", sans-serif;
   z-index: 2;
   position: relative;
-  width: 25rem;
+  width: 20rem;
 }
 
 .gallery p {
@@ -430,6 +430,11 @@ swiper-slide img {
     font-size: 60%;
   }
 
+  body {
+    overflow-x: hidden;
+
+  }
+
   .logo {
     top: 60px;
   }
@@ -456,7 +461,8 @@ swiper-slide img {
 
   /* GALLERY */
   .gallery {
-    display: block;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
   }
 
@@ -493,6 +499,22 @@ swiper-slide img {
 
   .anjay {
     margin-top: 3rem;
+  }
+
+  .info img {
+    width: 60%;
+    border-radius: 0px 0px 40% 40%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .info .bungacard {
+    position: absolute;
+    z-index: 0;
+    left: 60%; /* Menggunakan persentase untuk posisi horizontal */
+    top: 15%;
+    transform: translateX(-50%); /* Pusatkan bentuk secara horizontal */
+    opacity: 0.5;
   }
   /* end info */
 }
