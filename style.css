@@ -251,7 +251,7 @@ nav::before {
 /* GALLERY */
 .gallery {
   width: 100%;
-  background-color: #B39D5A;
+  background-color: #b39d5a;
   position: relative;
 }
 
@@ -298,17 +298,18 @@ swiper-slide img {
 }
 /* END GALLERY */
 
-
 /* INFO */
 .info {
   position: relative;
 }
 
-.info h5, h1 {
+.info h5,
+h1 {
   font-family: "vigran", sans-serif;
 }
 
-.info p, h6 {
+.info p,
+h6 {
   font-family: "Raleway", sans-serif;
   font-size: 0.8rem;
 }
@@ -322,6 +323,8 @@ swiper-slide img {
 
 .info .card {
   width: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 2px;
 }
 
 .info .bungacard {
@@ -337,6 +340,12 @@ swiper-slide img {
 @media (max-width: 992px) {
   html {
     font-size: 75%;
+  }
+
+  .info .card {
+    width: 98%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 2px;
   }
 }
 
@@ -413,16 +422,20 @@ swiper-slide img {
     width: 100px;
     height: 100px;
   }
-}
 
-/* INFO */
-.info .bungacard {
-  position: absolute;
-  z-index: 0;
-  left: 65%; /* Menggunakan persentase untuk posisi horizontal */
-  top: 19%;
-  transform: translateX(-50%); /* Pusatkan bentuk secara horizontal */
-  opacity: 0.5;
+  /* INFO */
+  .info .bungacard {
+    position: absolute;
+    z-index: 0;
+    left: 65%; /* Menggunakan persentase untuk posisi horizontal */
+    top: 19%;
+    transform: translateX(-50%); /* Pusatkan bentuk secara horizontal */
+    opacity: 0.5;
+  }
+
+  .anjay {
+    margin-top: 3rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -432,7 +445,6 @@ swiper-slide img {
 
   body {
     overflow-x: hidden;
-
   }
 
   .logo {
