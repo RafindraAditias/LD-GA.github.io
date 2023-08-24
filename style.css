@@ -309,12 +309,12 @@ h1 {
 }
 
 .info p,
-h6 {
+h6, a {
   font-family: "Raleway", sans-serif;
   font-size: 0.8rem;
 }
 
-.info img {
+.info .headinfo {
   width: 30rem;
   border-radius: 0px 0px 40% 40%;
   position: relative;
@@ -323,8 +323,9 @@ h6 {
 
 .info .card {
   width: 20rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 2px;
+  background-color: transparent;
+  width: 21rem;
+  height: 25rem;
 }
 
 .info .bungacard {
@@ -334,6 +335,10 @@ h6 {
   top: 25%;
   transform: translateX(-50%); /* Pusatkan bentuk secara horizontal */
   opacity: 0.5;
+}
+
+.lokasi {
+  width: 11rem;
 }
 /* INFO */
 
@@ -513,7 +518,7 @@ h6 {
     margin-top: 3rem;
   }
 
-  .info img {
+  .info .headinfo {
     width: 60%;
     border-radius: 0px 0px 40% 40%;
     position: relative;
