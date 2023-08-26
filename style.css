@@ -276,12 +276,12 @@ nav::before {
   z-index: 0;
 }
 
-swiper-container {
+.gallery swiper-container {
   width: 45rem;
   height: 30rem;
 }
 
-swiper-slide {
+.gallery swiper-slide {
   text-align: center;
   font-size: 18px;
   display: flex;
@@ -290,7 +290,7 @@ swiper-slide {
   align-items: center;
 }
 
-swiper-slide img {
+.gallery swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -340,7 +340,13 @@ h6, a {
 .lokasi {
   width: 11rem;
 }
-/* INFO */
+/* INFO END*/
+
+/* GALLERY2 */
+
+
+
+/* GALLERY2 END */
 
 @media (max-width: 992px) {
   html {
@@ -483,7 +489,7 @@ h6, a {
     overflow-x: hidden;
   }
 
-  swiper-container {
+  .gallery swiper-container {
     width: 80%;
     height: 20rem;
   }
