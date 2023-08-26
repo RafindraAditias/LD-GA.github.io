@@ -344,9 +344,56 @@ h6, a {
 
 /* GALLERY2 */
 
+.gallery2 {
+  width: 90%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery3 {
+  width: 90%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10rem;
+}
 
+.gallery2 swiper-slide img {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2) !important;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery3 swiper-slide img {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2) !important;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
 
 /* GALLERY2 END */
+
+/* QUOTES */
+.quotes {
+  background-color: #b39d5a;
+  margin-top: -3rem;
+}
+
+.quotes p {
+  width: 100vh;
+}
+
+.quotes h5 {
+  font-family: "Raleway", sans-serif;
+}
+/* QUOTES END */
 
 @media (max-width: 992px) {
   html {
