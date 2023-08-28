@@ -24,7 +24,7 @@ nav {
 
 .menu {
   display: flex;
-  padding: 0.6rem;
+  padding: 0.9rem;
   border-radius: 4px;
   position: fixed;
   top: 15px;
@@ -37,7 +37,7 @@ nav {
 
 .menu_label {
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 30px;
   text-transform: uppercase;
   color: #fff;
