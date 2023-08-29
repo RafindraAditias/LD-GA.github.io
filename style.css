@@ -620,9 +620,10 @@ a {
   }
 
   .info .bungacard {
+    width: 80%;
     position: absolute;
     z-index: 0;
-    left: 60%; /* Menggunakan persentase untuk posisi horizontal */
+    left: 50%; /* Menggunakan persentase untuk posisi horizontal */
     top: 15%;
     transform: translateX(-50%); /* Pusatkan bentuk secara horizontal */
     opacity: 0.5;
