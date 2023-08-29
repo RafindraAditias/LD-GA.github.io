@@ -47,12 +47,21 @@ nav {
   transition: all 0.3s;
 }
 
-.menu_label a {
+.menu_label a,
+.menu_input a {
   text-decoration: none;
+  color: white;
 }
 
 .menu_label i {
-  font-size: 1rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menu_label i:hover {
+  color: rgba(255, 255, 255, 0.829);
+  width: 2rem;
 }
 
 .menu_label:hover .bi {
@@ -63,7 +72,7 @@ nav {
   display: none;
 }
 
-.menu_input[type="radio"]:checked + .menu_label {
+/* .menu_input[type="radio"]:checked + .menu_label {
   background-color: rgba(255, 255, 255, 0.3);
   width: 2.4rem;
 }
@@ -71,7 +80,7 @@ nav {
 .menu_input[type="radio"]:checked + .menu_label + .menu_box {
   opacity: 1;
   transform: translateY(0) translateX(0) scale(1);
-}
+} */
 
 nav::before {
   content: "";
@@ -300,7 +309,8 @@ h1 {
 }
 
 .info p,
-h6, a {
+h6,
+a {
   font-family: "Raleway", sans-serif;
   font-size: 0.8rem;
 }
@@ -354,7 +364,7 @@ h6, a {
   font-size: 18px;
   background: #fff;
   height: calc((100% - 30px) / 2) !important;
-  display: flex ;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -364,7 +374,7 @@ h6, a {
   font-size: 18px;
   background: #fff;
   height: calc((100% - 30px) / 2) !important;
-  display: flex ;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -374,11 +384,11 @@ h6, a {
 /* QUOTES */
 .quotes {
   background-color: #b39d5a;
-  margin-top: -3rem;
+  margin-top: -10rem;
 }
 
 .quotes p {
-  width: 100vh;
+  width: 35rem;
 }
 
 .quotes h5 {
@@ -396,6 +406,26 @@ h6, a {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
       rgba(27, 31, 35, 0.15) 0px 0px 0px 2px;
   }
+
+  /* gallery */
+  .gallery2 {
+    width: 85%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery2 swiper-slide img {
+    height: calc((64% - 30px) / 2) !important;
+  }
+  /* end gallery */
+
+  /* QUOTES */
+  .quotes {
+    background-color: #b39d5a;
+    margin-top: -24rem;
+  }
+  /* END QUOTES */
 }
 
 @media (max-width: 768px) {
@@ -485,6 +515,26 @@ h6, a {
   .anjay {
     margin-top: 3rem;
   }
+
+  /* gallery */
+  .gallery2 {
+    width: 85%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery2 swiper-slide img {
+    height: calc((46% - 30px) / 2) !important;
+  }
+  /* end gallery */
+
+  /* QUOTES */
+  .quotes {
+    background-color: #b39d5a;
+    margin-top: -34rem;
+  }
+  /* END QUOTES */
 }
 
 @media (max-width: 576px) {
@@ -578,4 +628,24 @@ h6, a {
     opacity: 0.5;
   }
   /* end info */
+
+  /* gallery */
+  .gallery2 {
+    width: 90%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery2 swiper-slide img {
+    height: calc((37% - 30px) / 2) !important;
+  }
+  /* end gallery */
+
+  /* QUOTES */
+  .quotes {
+    background-color: #b39d5a;
+    margin-top: -40rem;
+  }
+  /* END QUOTES */
 }
