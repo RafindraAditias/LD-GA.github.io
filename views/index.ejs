@@ -372,49 +372,52 @@
     </section>
 
     <section class="comment m-5">
-      <h1 class="mb-5 text-center">Message<br>the Bride and Groom</h1>
-      <div class="row chat">
-        <div class="card" style="background-color: #ffffff">
-          <div class="card-header">
-            <ul class="container-fluid">
-              <% for(let comment of comments) { %>
-              <li class="d-flex align-items-center mx-auto">
-                <i class="bi bi-person-circle fs-3"></i>
-                <div class="item m-2">
-                  <h4 class="mb-1 fw-bold"><%= comment.nama_pengirim %></h4>
-                  <p class="lh-1"><%= comment.pesan %></p>
+      <h1 class="mb-5 text-center">Message<br />the Bride and Groom</h1>
+      <div class="container-fluid chat">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-10 ">
+            <div class="card" style="background-color: #ffffff">
+              <div class="card-header">
+                <ul class="container-fluid">
+                  <% for(let comment of comments) { %>
+                  <li class="d-flex align-items-center mx-auto">
+                    <i class="bi bi-person-circle fs-3"></i>
+                    <div class="item m-2">
+                      <h4 class="mb-1 fw-bold"><%= comment.nama_pengirim %></h4>
+                      <p class="lh-1"><%= comment.pesan %></p>
+                    </div>
+                  </li>
+                  <% } %>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="card-body text-center">
+                  <form action="/tambah" method="post">
+                    <input
+                      type="text"
+                      name="nama_pengirim"
+                      id="nama_pengirim"
+                      class="form-control"
+                      placeholder="your name"
+                    />
+                    <input
+                      type="text"
+                      name="pesan"
+                      id="pesan"
+                      class="form-control"
+                      placeholder="message for the bride and groom"
+                    />
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </form>
                 </div>
-              </li>
-              <% } %>
-            </ul>
-          </div>
-        </div>
-        <!-- <div class="card">
-          <div class="card-body">
-            <div class="card-body text-center">
-              <form
-                action="/tambah"
-                method="post"
-              >
-                <input
-                  type="text"
-                  name="nama_pengirim"
-                  id="nama_pengirim"
-                  class="form-control"
-                  placeholder="your name"
-                />
-                <input
-                  type="text"
-                  name="pesan"
-                  id="pesan"
-                  class="form-control"
-                  placeholder="message for the bride and groom"
-                />
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+              </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </section>
 
